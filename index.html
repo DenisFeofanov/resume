@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Феофанов Денис Алексеевич - Frontend разработчик</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #fafafa;
+      }
+
+      .container {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 50px;
+      }
+
+      h1 {
+        color: #2c3e50;
+        font-size: 2.2em;
+        margin-bottom: 10px;
+        font-weight: 600;
+        border-bottom: 3px solid #3498db;
+        padding-bottom: 15px;
+        display: inline-block;
+      }
+
+      h2 {
+        color: #34495e;
+        font-size: 1.4em;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        position: relative;
+        padding-left: 20px;
+      }
+
+      h2::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 4px;
+        height: 20px;
+        background-color: #3498db;
+        border-radius: 2px;
+      }
+
+      h3 {
+        color: #2c3e50;
+        font-size: 1.2em;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-weight: 600;
+      }
+
+      h4 {
+        color: #34495e;
+        font-size: 1.1em;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        font-weight: 600;
+      }
+
+      p {
+        margin-bottom: 12px;
+        color: #555;
+        text-align: justify;
+      }
+
+      strong {
+        color: #2c3e50;
+        font-weight: 600;
+      }
+
+      ul {
+        margin-left: 20px;
+        margin-bottom: 15px;
+      }
+
+      li {
+        margin-bottom: 8px;
+        color: #555;
+        padding-left: 5px;
+      }
+
+      em {
+        color: #7f8c8d;
+        font-style: italic;
+      }
+
+      hr {
+        border: none;
+        height: 2px;
+        background: linear-gradient(to right, #3498db, transparent);
+        margin: 40px 0;
+      }
+
+      .contact-info p {
+        margin-bottom: 8px;
+      }
+
+      .work-experience {
+        border-left: 2px solid #ecf0f1;
+        padding-left: 25px;
+        margin-left: 10px;
+        position: relative;
+      }
+
+      .work-experience h3 {
+        position: relative;
+      }
+
+      .work-experience h3::before {
+        content: "";
+        position: absolute;
+        left: -35px;
+        top: 8px;
+        width: 12px;
+        height: 12px;
+        background-color: #3498db;
+        border-radius: 50%;
+        border: 3px solid white;
+        box-shadow: 0 0 0 2px #3498db;
+      }
+
+      .tech-stack {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 6px;
+        margin: 15px 0;
+        border-left: 4px solid #3498db;
+      }
+
+      .footer-note {
+        text-align: center;
+        font-style: italic;
+        color: #7f8c8d;
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #ecf0f1;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 20px 10px;
+        }
+
+        .container {
+          padding: 30px 20px;
+        }
+
+        h1 {
+          font-size: 1.8em;
+        }
+
+        h2 {
+          font-size: 1.3em;
+        }
+
+        .work-experience {
+          padding-left: 20px;
+          margin-left: 5px;
+        }
+
+        .work-experience h3::before {
+          left: -30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Резюме Frontend разработчика</h1>
+
+      <div class="contact-info">
+        <h2>Контактная информация</h2>
+        <p><strong>ФИО:</strong> Феофанов Денис Алексеевич</p>
+        <p><strong>Город:</strong> Екатеринбург</p>
+        <p><strong>Email:</strong> feofan.den@gmail.com</p>
+        <p><strong>Telegram:</strong> @feofanden</p>
+      </div>
+
+      <h2>О себе</h2>
+      <p>
+        Frontend-разработчик с опытом работы 3+ года. Помимо фронтенда имею опыт
+        с бекендом и развертыванием приложений на сервере (CI/CD). Умею работать
+        в команде, решать непредвиденные проблемы и учитывать контекст задач
+      </p>
+      <p><strong>Основные технологии:</strong> TypeScript, React.js, Node.js</p>
+
+      <h2>Личные качества</h2>
+      <ul>
+        <li>Люблю изучать технологии глубже, чем требуется</li>
+        <li>Легко нахожу общий язык с коллегами</li>
+        <li>Стараюсь хорошо разобраться в задаче перед тем, как начать</li>
+        <li>Довожу задачи до конца, решаю возникающие проблемы</li>
+        <li>Понимаю, как связаны разные части проекта</li>
+      </ul>
+
+      <h2>Стек</h2>
+
+      <div class="tech-stack">
+        <h3>Frontend</h3>
+        <p><strong>Языки:</strong> JavaScript, TypeScript, HTML5, CSS3</p>
+        <p><strong>Фреймворки/Библиотеки:</strong> React.js, Next.js</p>
+        <p><strong>State Management:</strong> Redux</p>
+        <p><strong>Стилизация:</strong> Material UI, Tailwind CSS, CSS-in-JS</p>
+        <p><strong>Интернационализация:</strong> i18next</p>
+
+        <h3>Backend и DevOps</h3>
+        <p><strong>Backend:</strong> Node.js, Express.js</p>
+        <p><strong>Базы данных:</strong> MongoDB</p>
+        <p><strong>Realtime:</strong> Socket.io</p>
+        <p><strong>Инфраструктура:</strong> Github Actions</p>
+        <p><strong>API:</strong> REST API, Postman</p>
+
+        <h3>Другое</h3>
+        <p><strong>Система контроля версий:</strong> Git</p>
+        <p><strong>Дизайн:</strong> Figma</p>
+        <p><strong>Авторизация:</strong> Firebase Authentication</p>
+
+        <h3>Языки</h3>
+        <p><strong>Русский:</strong> родной</p>
+        <p><strong>Английский:</strong> свободное владение</p>
+      </div>
+
+      <h2>Опыт работы</h2>
+
+      <div class="work-experience">
+        <h3>Fullstack-разработчик | ЗАО ЛОТОС</h3>
+        <p><em>Февраль 2024 — настоящее время (18+ месяцев)</em></p>
+        <p>
+          <strong>Проект:</strong> Платформа для автоматизации закупочного
+          процесса LOTUS UEMS
+        </p>
+
+        <h4>Обязанности</h4>
+        <ul>
+          <li>Анализировать требования к проекту и формулировать задачи</li>
+          <li>
+            Координировать работу с двумя разработчиками в команде, распределять
+            задачи
+          </li>
+          <li>Проектировать интерфейсы в Figma и архитектуру БД MongoDB</li>
+          <li>Разрабатывать фронтенд на React.js</li>
+          <li>
+            Писать API эндпойнты на Node.js/Express и настраивать крон-задачи
+          </li>
+          <li>Оформлять документацию API через Postman</li>
+        </ul>
+
+        <h4>Что сделал:</h4>
+        <ul>
+          <li>Спроектировал и отладил архитектуру из 8 микросервисов</li>
+          <li>
+            Разработал систему торгов в реальном времени с использованием
+            Socket.io
+          </li>
+          <li>Подготовил систему интернационализации через i18next</li>
+          <li>
+            Настроил среды для тестирования и продакшн с автоматическим
+            развертыванием и бекапом БД через Github Actions и shell-скрипты
+          </li>
+          <li>
+            Внедрил систему авторизации через Firebase и обработку отправки
+            email на основе очереди BullMQ (Redis)
+          </li>
+        </ul>
+
+        <p>
+          <strong>Технологии:</strong> TypeScript, React.js, react-admin,
+          react-hook-form, Node.js, Express, MongoDB, Socket.io, Redis,
+          Firebase, i18next
+        </p>
+      </div>
+
+      <div class="work-experience">
+        <h3>Frontend-разработчик | Фриланс проект "1000 лет вместе"</h3>
+        <p><em>Октябрь 2023 — Январь 2024 (4 месяца)</em></p>
+        <p><strong>Проект:</strong> Веб-сайт для онлайн-спектакля</p>
+
+        <h4>Что сделал:</h4>
+        <ul>
+          <li>
+            Создал адаптивное приложение на Next.js с использованием статической
+            генерации (SSG) для оптимальной производительности
+          </li>
+          <li>
+            Сверстал интерфейсы с помощью Tailwind CSS, так как заказчику была
+            важна скорость разработки
+          </li>
+          <li>Разработал кастомный аудиоплеер под дизайн проекта</li>
+          <li>
+            Реализовал сбор обратной связи через email без использования сервера
+            для простого развертывания
+          </li>
+          <li>
+            Настроил автоматическую конвертацию транскрипций из .docx в html для
+            удобного обновления контента
+          </li>
+        </ul>
+
+        <p>
+          <strong>Технологии:</strong> Typescript, Next.js, Tailwind CSS,
+          react-hook-form, Resend API
+        </p>
+      </div>
+
+      <div class="work-experience">
+        <h3>Frontend-разработчик | Flocktory</h3>
+        <p><em>Октябрь 2017 — Март 2019 (1 год 6 месяцев)</em></p>
+
+        <h4>Что сделал:</h4>
+        <ul>
+          <li>
+            Верстал маркетинговые виджеты на чистом JS/jQuery (квизы, колесо
+            фортуны, попапы)
+          </li>
+          <li>
+            Участвовал в создании приложения для сбора штрафов на React Native
+          </li>
+        </ul>
+
+        <p><strong>Технологии:</strong> JavaScript, jQuery, React Native</p>
+      </div>
+
+      <hr />
+
+      <p class="footer-note">
+        <em>Готов к удаленной работе и рассмотрению интересных проектов</em>
+      </p>
+    </div>
+  </body>
+</html>
