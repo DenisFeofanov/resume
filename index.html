@@ -47,10 +47,11 @@
         margin-bottom: 5px;
       }
 
-      .subtitle {
+      .header__subtitle {
         color: #666;
         font-size: 1.1em;
         margin-bottom: 30px;
+        margin-top: 0;
       }
 
       .contact {
@@ -61,29 +62,29 @@
         margin-bottom: 5px;
       }
 
-      .job-date {
+      .experience__date {
         color: #666;
         font-style: italic;
         font-size: 0.9em;
       }
 
-      .tech-list {
+      .experience__tech {
         color: #666;
         font-size: 0.9em;
       }
 
-      .header-section {
+      .header {
         display: flex;
         align-items: flex-start;
         gap: 30px;
         margin-bottom: 30px;
       }
 
-      .header-info {
+      .header__info {
         flex: 1;
       }
 
-      .profile-photo {
+      .header__photo {
         width: 200px;
         height: 300px;
         border-radius: 8px;
@@ -100,25 +101,25 @@
           font-size: 1.8em;
         }
 
-        .header-section {
-          flex-direction: column;
+        .header {
+          flex-direction: column-reverse;
           align-items: center;
           text-align: center;
           gap: 20px;
         }
 
-        .profile-photo {
-          width: 120px;
-          height: 120px;
+        .header__photo {
+          object-fit: contain;
+          width: 80%;
         }
       }
     </style>
   </head>
   <body>
-    <div class="header-section">
-      <div class="header-info">
+    <div class="header">
+      <div class="header__info">
         <h1>Феофанов Денис Алексеевич</h1>
-        <p class="subtitle">Frontend разработчик</p>
+        <p class="header__subtitle">Frontend разработчик</p>
 
         <div class="contact">
           <p>
@@ -135,7 +136,7 @@
       <img
         src="./photo.webp"
         alt="Феофанов Денис Алексеевич"
-        class="profile-photo"
+        class="header__photo"
       />
     </div>
 
@@ -174,7 +175,7 @@
     <h2>Опыт работы</h2>
 
     <h3>Fullstack-разработчик | ЗАО ЛОТОС</h3>
-    <p class="job-date">Февраль 2024 — настоящее время (18+ месяцев)</p>
+    <p class="experience__date">Февраль 2024 — настоящее время (18+ месяцев)</p>
     <p>
       <strong>Проект:</strong> Платформа для автоматизации закупочного процесса
       LOTUS UEMS
@@ -210,14 +211,14 @@
       </li>
     </ul>
 
-    <p class="tech-list">
+    <p class="experience__tech">
       <strong>Технологии:</strong> TypeScript, React.js, react-admin,
       react-hook-form, Node.js, Express, MongoDB, Socket.io, Redis, Firebase,
       i18next
     </p>
 
     <h3>Frontend-разработчик | Фриланс проект "1000 лет вместе"</h3>
-    <p class="job-date">Октябрь 2023 — Январь 2024 (4 месяца)</p>
+    <p class="experience__date">Октябрь 2023 — Январь 2024 (4 месяца)</p>
     <p><strong>Проект:</strong> Веб-сайт для онлайн-спектакля</p>
 
     <p><strong>Что сделал:</strong></p>
@@ -241,13 +242,13 @@
       </li>
     </ul>
 
-    <p class="tech-list">
+    <p class="experience__tech">
       <strong>Технологии:</strong> Typescript, Next.js, Tailwind CSS,
       react-hook-form, Resend API
     </p>
 
     <h3>Frontend-разработчик | Flocktory</h3>
-    <p class="job-date">Октябрь 2017 — Март 2019 (1 год 6 месяцев)</p>
+    <p class="experience__date">Октябрь 2017 — Март 2019 (1 год 6 месяцев)</p>
 
     <p><strong>Что сделал:</strong></p>
     <ul>
@@ -260,7 +261,7 @@
       </li>
     </ul>
 
-    <p class="tech-list">
+    <p class="experience__tech">
       <strong>Технологии:</strong> JavaScript, jQuery, React Native
     </p>
 
